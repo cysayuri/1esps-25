@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
 
 * {
     font-family: "Jockey One", Roboto, Calibri, sans-serif;
@@ -12,13 +12,16 @@
     padding: 70px 0;
 }
 
+#personagens, #viloes, #final {
+    border-bottom: 30px solid #5ED338;
+}
+
 #banner { background-color: #F43443; }
 #inicio { background-color: #E8E8E0; }
 #personagens { background-color: #819DF9; }
-#poderes { background-color: #E7D5AB; }
-#viloes { background-color: #555250; }
+#poderes { background-color: #E7D5AB; padding: 50px 0; }
+#viloes { background-color: #555250; border-color: #FB3603; }
 #final { background-color: #819DF9; }
-
 
 #banner {
     display: flex;
@@ -43,5 +46,91 @@
     width: 270px;
     text-align: center;
     margin: 20px 0;
-    transition: all .5s ease-in-out;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.personagens-item {
+    width: 170px;
+    text-align: center;
+}    
+
+.personagens-item img {
+    border-radius: 100%;
+}    
+
+.personagens-lista {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h4 {
+    background-color: #4D6DD2;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    padding: 5px 0;
+    margin-top: 10px;
+}
+
+.poderes-item {
+    border: 10px solid #E7B300;
+    width: 120px;
+    height: 120px;
+    margin: 0 20px 30px;
+    border-radius: 10px;
+}
+
+.poderes-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.poderes-lista {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#viloes {
+    padding: 70px 40px;
+}
+
+.viloes-lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+.viloes-lista .personagens-item {
+    margin: 0 10px;
+}
+
+#final {
+    padding-bottom: 0;
+}
+    
+#final h2 {
+    margin-bottom: 10px;
+}
+
+.final-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.princesas {
+    width: 170px;
+    height: 180px;
+    /* object-fit: cover; */
+    object-fit: contain;
 }
