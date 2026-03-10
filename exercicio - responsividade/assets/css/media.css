@@ -1,0 +1,71 @@
+@media (max-width: 600px) {
+    header nav ul {
+        justify-content: center;
+        
+        li {
+            width: 30%;
+
+            a {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .home-banner {
+        height: 240px;
+    }
+    
+    #logo {
+        margin-top: 20px;
+        width: 340px;
+    }
+
+    .home-section__about-us {
+        flex-wrap: wrap;
+        padding: 50px 0;
+    }
+    
+    .about-us__item {
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .home-section {
+        flex-wrap: wrap;
+    }
+ 
+    .home-section__img {
+        height: 270px;
+        width: 100%;
+        background-position: center;
+    }
+
+    .home-section__info {
+        width: 100%;
+    }
+
+    .home-section__filmes, .home-section__musicas {
+        height: auto;
+    }
+    
+    .home-section__musicas, .home-section__info {
+        order: 2;
+    }
+ 
+    .home-section__contato .contato__form {
+        width: 85%;
+    }
+
+    .footer {
+        padding: 30px 0;
+
+        p {
+            width: 100%;
+            margin: 5px 0 20px;
+        }
+    }
+
+    .footer__icones {
+        margin-top: 20px;
+    }
+}
