@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+    
+    <!-- Menu depois -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Ex cores com botões -->
+    <div>
+        <div class="bg-info m-3 p-3">Bg</div>
+        <div class="bg-success m-3 p-3">Bg</div>
+        
+        <button type="button" class="btn btn-danger btn-md me-3 px-4">Btn</button>
+        <button type="button" class="btn btn-primary btn-md me-3 px-4">Btn</button>
+        <button type="button" class="btn btn-info btn-lg me-3 px-4">Btn</button>
+        <button type="button" class="btn btn-success btn-lg me-3 px-4">Btn</button>
+        
+        <button type="button" class="btn border-dark btn-sm me-3 px-4">Border</button>
+        <button type="button" class="btn border-warning btn-sm me-3 px-4">Border</button>
+    </div>
+    
+    <div class="text-center my-4">
+        <div class="btn-group">
+            <button type="button" class="btn btn-danger">Botão 01 </button>
+            <button type="button" class="btn btn-dark">Botão 02 </button>
+            <button type="button" class="btn btn-success">Botão 03 </button>
+        </div>
+    </div>
+    
+    <!-- Containers -->
+    <div class="container-fluid bg-dark text-light">
+        <h1>Meu projeto Web</h1>
+        <p>Lorem ipsum dolor...</p>
+    </div>
+    
+    <!-- Grid -->
+    <div class="container my-5">
+        <h1>Meu projeto Web</h1>
+        
+        <div class="mt-4">
+            <div class="row">
+                <div class="col-12 border text-center">12 colunas</div>
+            </div>
+            <div class="row">
+                <div class="col-6 border text-center">06 colunas</div>
+                <div class="col-6 border text-center">06 colunas</div>
+            </div>
+            <div class="row">
+                <div class="col-4 border text-center">04 colunas</div>
+                <div class="col-4 border text-center">04 colunas</div>
+                <div class="col-4 border text-center">04 colunas</div>
+            </div>
+            <div class="row">
+                <div class="col-3 border text-center">03 colunas</div>
+                <div class="col-3 border text-center">03 colunas</div>
+                <div class="col-3 border text-center">03 colunas</div>
+                <div class="col-3 border text-center">03 colunas</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Responsividade -->
+    <div class="container my-5">
+        <h1>Meu projeto Web</h1>
+        
+        <div class="mt-4">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 border text-center">04 colunas</div>
+                <div class="col-sm-12 col-md-4 border text-center">04 colunas</div>
+                <div class="col-sm-12 col-md-4 border text-center">04 colunas</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-xl-3 border text-center">03 colunas</div>
+                <div class="col-sm-12 col-md-6 col-xl-3 border text-center">03 colunas</div>
+                <div class="col-sm-12 col-md-6 col-xl-3 border text-center">03 colunas</div>
+                <div class="col-sm-12 col-md-6 col-xl-3 border text-center">03 colunas</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Títulos heading -->
+    <div class="container">
+        <h1 class="display-1">Meu projeto Web</h1>
+        <h2 class="display-2">Meu projeto Web</h2>
+        <h3 class="display-3">Meu projeto Web</h3>
+        <h4 class="display-4">Meu projeto Web</h4>
+        <h5 class="display-5">Meu projeto Web</h5>
+        <h6 class="display-6">Meu projeto Web</h6>  
+    </div>
+    
+    <!-- Parágrafo -->
+    <div class="container my-5">
+        <h1 class="display-1 my-3">Meu projeto Web</h1>
+        <p class="lead text-start">
+            Lorem ipsum dolor sit amet consectetur...
+        </p>
+        <p class="lead text-center">
+            Lorem ipsum dolor sit amet consectetur...
+        </p>
+        <p class="lead text-end">
+            Lorem ipsum dolor sit amet consectetur...
+        </p>
+    </div>
+    
+    <!-- Bordas -->
+    <div class="container">
+        <p class="fs-1 p-2 border border-5">Bordas</p>
+        <p class="fs-2 p-2 border border-4 border-secondary rounded-1">Bordas</p>
+        <p class="fs-3 p-2 border border-3 border-danger rounded-2">Bordas</p>
+        <p class="fs-4 p-2 border border-2 border-warning rounded-3">Bordas</p>
+        <p class="fs-5 p-2 border border-1 border-success rounded-4">Bordas</p>
+        <p class="fs-6 p-2 border border-0 border-dark rounded-5">Bordas</p>
+    </div>
+    
+    <!-- Imagens -->
+    <div class="container-fluid text-center row">
+        <div class="col-6">
+            <img src="https://picsum.photos/501/301" alt="imagem 01" class="img-fluid">                
+        </div>
+        
+        <div class="col-6">
+            <img src="https://picsum.photos/500/300" alt="imagem 02" class="img-thumbnail">
+        </div>              
+    </div>
+    
+    <!-- Tabela -->
+    <div class="container text-center my-5">
+        <table class="table table-striped table-bordered table-hover">
+            <thead class="text-center">
+                <tr>
+                    <th>Código</th>
+                    <th>Nome do Funcionário</th>
+                    <th>Função</th>
+                    <th>Departamento</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                <tr>
+                    <th>01</th>
+                    <td>Wanda Maximoff</td>
+                    <td>Desenvolvedor Full Stack</td>
+                    <td>Tecnologia e Inovação</td>
+                </tr>
+                <tr>
+                    <th>02</th>
+                    <td>Tony Stark</td>
+                    <td>Desenvolvedor Front-end</td>
+                    <td>Agência Web</td>
+                </tr>
+                <tr>
+                    <th>03</th>
+                    <td>Peter Parker</td>
+                    <td>UX Designer</td>
+                    <td>Agência Web</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <!-- Dropdown -->
+    <div class="container text-center my-4">
+        <h3 class="display-3 my-4">Meu projeto Web</h3>
+        
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Opção 1</a></li>
+                <li><a class="dropdown-item" href="#">Opção 2</a></li>
+                <li><a class="dropdown-item" href="#">Opção 3</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Modal & Form -->
+    <div class="container my-5">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Fazer Login
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Meu projeto Web - Tela de login</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-12 my-2">
+                                    <label for="usuario" class="form-label">Usuário</label>
+                                    <input type="text" name="usuario" id="usuario" class="form-control">
+                                </div>
+                                <div class="col-12 my-2">
+                                    <label for="senha" class="form-label">Senha</label>
+                                    <input type="password" name="senha" id="senha" class="form-control">
+                                </div>
+                                <div class="col-12 my-2 d-flex justify-content-end">
+
+                                </div>
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Fazer Login</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Accordion -->
+    <div class="container">
+        <h4 class="text-center display-4 my-3">Meu projeto Web - Frameworks</h4>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        React
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>
+                            Lorem ipsum dolor...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Angular
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>
+                            Lorem ipsum dolor...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Next.js
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>
+                            Lorem ipsum dolor...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slider / Carrossel -->
+    <div class="container my-5">
+        <h4 class="text-center display-4 mb-3">Meu projeto Web</h4>
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://picsum.photos/1500/700" class="d-block w-100" alt="Imagem 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://picsum.photos/1500/700" class="d-block w-100" alt="Imagem 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://picsum.photos/1500/700" class="d-block w-100" alt="Imagem 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

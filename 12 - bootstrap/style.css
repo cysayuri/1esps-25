@@ -1,0 +1,15 @@
+.container {
+    margin: 50px auto;
+}
+
+.hidden {
+    /* display: none; */
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s ease-in-out;
+
+    &.active {
+        opacity: 1;
+        pointer-events: auto;
+    }
+}
