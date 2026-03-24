@@ -29,6 +29,13 @@ body {
     text-decoration: none;
     padding: 10px 30px;
     width: fit-content;
+    /* Depois */
+    transition: all .5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #ed145b;
+    color: #fff;
 }
 
 .box {
@@ -37,12 +44,26 @@ body {
     height: 250px;
     padding: 20px;
     margin: 3rem 0;
+    /* transition-property: background-color;
+    transition-duration: 3s;
+    transition-timing-function: linear; */
+    transition: background-color 3s linear;
+    
+    &:hover {
+        background-color: #ed145b;
+    }
 }
 
 i {
     color: #fff;
     font-size: 5rem;
     position: relative;
+}
+
+.box:hover i {
+    /* nome / duração / transição / delay / repetições / direção */
+    /* animation: rocket 3s ease 2s 2 reverse; */
+    animation: rocket 3s ease-in-out infinite alternate;
 }
 
 .text {
@@ -54,3 +75,33 @@ i {
     padding: 20px 0;
     text-align: center;
 }
+
+@keyframes rocket {
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        left: calc(100% - 5rem);
+        top: 0;
+    }
+
+    50% {
+        left: calc(100% - 5rem);
+        top: calc(100% - 5rem);
+    }
+    
+    75% {
+        left: 0;
+        top: calc(100% - 5rem);
+    }
+
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+
+/* Se sobrar pouco tempo -> Vercel */
+/* Se sobrar muito tempo -> Início exercício */
