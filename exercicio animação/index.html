@@ -32,7 +32,7 @@
             </div>
         </div>
     </nav>
-    
+
     <section id="gol" class="lance flex--end">
         <img class="lance__gol" src="./img/gol.png" alt="">
         <img class="lance__bola" src="./img/bola.png" alt="">
@@ -43,9 +43,26 @@
             <h2>Gooooooool!!!</h2>
         </div>
     </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+    <section class="camisa" id="camisa">
+        <div class="camisa__content flex--sb">
+            <form>
+                <h2>Personalize sua camisa</h2>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                <input type="text" name="numero" id="numero" placeholder="Digite um número">
+                <input type="button" id="btn" value="Enviar">
+            </form>
+
+            <div class="camisa__modelo">
+                <img src="./img/camisa.png" alt="Camisa do time">
+                <span id="camisa__nome" class="camisa__text">Seu nome</span>
+                <span id="camisa__numero" class="camisa__text">Nº</span>
+            </div>
+        </div>
+    </section>
+
     <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
