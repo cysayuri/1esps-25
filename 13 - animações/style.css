@@ -29,7 +29,6 @@ body {
     text-decoration: none;
     padding: 10px 30px;
     width: fit-content;
-    /* Depois */
     transition: all .5s ease-in-out;
 }
 
@@ -102,6 +101,3 @@ i {
         top: 0;
     }
 }
-
-/* Se sobrar pouco tempo -> Vercel */
-/* Se sobrar muito tempo -> Início exercício */
